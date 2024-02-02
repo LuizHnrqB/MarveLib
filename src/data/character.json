@@ -1,0 +1,130 @@
+[
+  {
+    "nome": "Hulk",
+    "about": "Na história original dos quadrinhos, o Hulk é um selvagem e poderoso alter ego do Dr. Robert Bruce Banner, um cientista que foi atingido por raios gama enquanto salvava um adolescente durante o teste militar.",
+    "foto": "hulk",
+    "rating": 4,
+    "aparicoes": [
+      "Vingadores",
+      "Vingadores - Era de Ultron ",
+      "Thor - Ragnarok",
+      "Vingadores - Guerra Infinita",
+      "Vingadores - Ultimato "
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Thanos",
+    "about": "A lua Titã era governada por Mentor (A'Lars), quando então reinava paz e tecnologia. Mentor tinha dois filhos: Eros e Thanos.  Ao contrário do irmão, Thanos, era bem mais poderoso e almejava ainda mais.",
+    "foto": "thanos",
+    "rating": 2,
+    "aparicoes": [
+      "Vingadores ",
+      "Guardiões da Galáxia - Vol. 1",
+      "Vingadores - Guerra Infinita",
+      "Vingadores - Ultimato "
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Homem Aranha",
+    "about": "Após ser mordido por uma aranha radioativa, Peter Parker se torna o amigo da vizinhança, o Homem-Aranha.",
+    "foto": "spiderMan",
+    "rating": 5,
+    "aparicoes": [
+      "Capitão América - Guerra Civil",
+      "Homem Aranha - De Volta ao Lar",
+      "Vingadores - Guerra Infinita",
+      "Vingadores - Ultimato ",
+      "Homem Aranha - Longe de Casa",
+      "Homem Aranha - Sem volta pra Casa"
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Feiticeira Escarlate",
+    "about": "Wanda Maximoff foi sequestrada da Sérvia e trazida para a Montanha Wundagore, base do Alto Evolucionário. Durante anos, ela e seu irmão gêmeo, Pietro, acreditavam que eram filhos de um casal de ciganos.",
+    "foto": "scarletWitch",
+    "rating": 5,
+    "aparicoes": [
+      "Vingadores - Era de Ultron ",
+      "Capitão América - Guerra Civil",
+      "Vingadores - Guerra Infinita",
+      "Vingadores - Ultimato ",
+      "WandaVision"
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Homem de Ferro",
+    "about": "Tony Stark, um industrialista e inventor genial, constrói uma armadura de alta tecnologia para se tornar o super-herói conhecido como Homem de Ferro.",
+    "foto": "ironMan",
+    "rating": 4,
+    "aparicoes": [
+      "Homem de Ferro",
+      "Homem de Ferro 2",
+      "Vingadores",
+      "Homem de Ferro 3",
+      "Vingadores - Era de Ultron",
+      "Homem Aranha - De volta ao Lar",
+      "Capitão América - Guerra Civil",
+      "Vingadores - Guerra Infinita",
+      "Vingadores - Ultimato"
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Capitão América",
+    "about": "Steve Rogers, um jovem franzino, se voluntaria para um experimento que o transforma no supersoldado conhecido como Capitão América, lutando pela justiça e liberdade.",
+    "foto": "captainAmerica",
+    "rating": 4,
+    "aparicoes": [
+      "Capitão América - O Primeiro Vingador",
+      "Os Vingadores",
+      "Capitão América - Guerra Civil",
+      "Vingadores - Guerra Infinita",
+      "Vingadores - Ultimato"
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Pantera Negra",
+    "about": "T'Challa, o rei de Wakanda, assume o manto do Pantera Negra, um protetor habilidoso com sentidos aguçados, força sobre-humana e tecnologia avançada.",
+    "foto": "blackPanther",
+    "rating": 5,
+    "aparicoes": [
+      "Capitão América: Guerra Civil",
+      "Pantera Negra",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato"
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Thor",
+    "about": "Thor, o deus do trovão, é enviado à Terra como castigo e aprende o verdadeiro significado da humildade enquanto protege o planeta com seu martelo mágico, Mjolnir.",
+    "foto": "thor",
+    "rating": 4,
+    "aparicoes": [
+      "Thor",
+      "Os Vingadores",
+      "Thor: O Mundo Sombrio",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato"
+    ],
+    "tipo": "1"
+  },
+  {
+    "nome": "Doutor Estranho",
+    "about": "Stephen Strange, um cirurgião arrogante, busca a cura para suas mãos feridas e acaba descobrindo o mundo das artes místicas, tornando-se o feiticeiro supremo conhecido como Doutor Estranho.",
+    "foto": "drStrange",
+    "rating": 4,
+    "aparicoes": [
+      "Doutor Estranho",
+      "Thor: Ragnarok",
+      "Vingadores: Guerra Infinita",
+      "Vingadores: Ultimato"
+    ],
+    "tipo": "1"
+  }
+]

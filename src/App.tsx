@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import character from "../src/data/character.json";
+import movies from "../src/data/movies.json";
+import { ItemsCarousel } from "./components/carousel/index";
+import { GlobalStyle, BackApp, Content } from "./styles";
+import { NavBar } from "./components/navBar";
 
 function App() {
+  let tipo1: string = "filme";
+  let tipo2: string = "personagem";
+  let tipo3: string = "hqs";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BackApp>
+        <NavBar></NavBar>
+        <GlobalStyle />
+        <Content>
+          <ItemsCarousel data={character} />
+        </Content>
+      </BackApp>
     </div>
   );
 }
