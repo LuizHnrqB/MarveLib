@@ -1,1 +1,37 @@
-[{}]
+[
+  {
+    "nome": "Wolverine: Origens",
+    "about": "Origem é uma minissérie em quadrinhos publicada pela Marvel Comics em seis edições, entre 2001 e 2002. A história conta a revelação do passado do personagem Wolverine. ",
+    "foto": "wolverineHQ",
+    "rating": "3",
+    "tipo": "3"
+  },
+  {
+    "nome": "Surfista Prateado:Parábola",
+    "about": "O único oponente do Devorador de Mundos é o herói que ele aprisionou na Terra: o Surfista Prateado, Galactus jurou não consumir o planeta, mas e se, em vez disso, ele transformar a civilização em seus adoradores?",
+    "foto": "silverSurferHQ",
+    "rating": "3",
+    "tipo": "3"
+  },
+  {
+    "nome": "Thor: Vikings",
+    "about": "Garth Ennis e sua violência atacam novamente na HQ que leva a violência das histórias de Thor ao limite! Na minissérie de 2003 vemos vikings de um passado distante voltando a vida.",
+    "foto": "thorHQ",
+    "rating": "3",
+    "tipo": "3"
+  },
+  {
+    "nome": "Quarteto Fantástico",
+    "about": "Uma das revistas em quadrinhos mais antigas da Marvel, Quarteto Fantástico apresenta as aventuras de uma equipe de aventureiros que antes de tudo é uma família.",
+    "foto": "f4HQ",
+    "rating": "5",
+    "tipo": "3"
+  },
+  {
+    "nome": "Homem Aranha",
+    "about": "Em Amazing Fantasy #15 o público conheceu Peter Parker, um jovem rejeitado na escola que vivia com seus tios Ben e May. Ao visitar uma excursão de ciências, ele é mordido por uma aranha radioativa, adquirindo super-poderes.",
+    "foto": "spiderManHQ",
+    "rating": "5",
+    "tipo": "3"
+  }
+]

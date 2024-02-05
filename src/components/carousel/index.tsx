@@ -3,8 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import * as styles from "./styles";
-import { ReactSlickModal } from "../modal";
+import { DetailsModal } from "../modal";
+
 import { imgs } from "../../data/imagePaths";
+import { NavBar } from "../navBar";
 
 export function ItemsCarousel({ data }: { data: any[] }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -38,28 +40,21 @@ export function ItemsCarousel({ data }: { data: any[] }) {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 1440,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -68,6 +63,7 @@ export function ItemsCarousel({ data }: { data: any[] }) {
 
   return (
     <>
+      <NavBar />
       <Slider {...settings}>
         {data.map((item: any, index: number) => (
           <styles.Container key={index}>
@@ -75,14 +71,14 @@ export function ItemsCarousel({ data }: { data: any[] }) {
             <styles.InnerDiv>
               <styles.InnerTitle>{item.nome}</styles.InnerTitle>
               <styles.paragraph>{item.about}</styles.paragraph>
-              <styles.button onClick={() => openModal(item, index)}>
+              <styles.Button onClick={() => openModal(item, index)}>
                 Ver detalhes
-              </styles.button>
+              </styles.Button>
             </styles.InnerDiv>
           </styles.Container>
         ))}
       </Slider>
-      <ReactSlickModal
+      <DetailsModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
         selectedItem={selectedItem}

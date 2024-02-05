@@ -1,7 +1,7 @@
 import cptAmericaMovie from "../assets/img/movies/cptAmerica.png";
-import ironManMovie from "../assets/img/movies/ironMan.png";
+import ironManMovie from "../assets/img/movies/ironManMovie.png";
 import msMarvel from "../assets/img/movies/msMarvel.png";
-import thorMovie from "../assets/img/movies/thor.png";
+import thorMovie from "../assets/img/movies/thorMovie.png";
 import ironMan2 from "../assets/img/movies/ironMan2.png";
 import hulk from "../assets/img/heroes/hulk.png";
 import thanos from "../assets/img/heroes/thanos.png";
@@ -15,6 +15,8 @@ import ironMan from "../assets/img/heroes/ironMan.png";
 import thor from "../assets/img/heroes/thor.png";
 import blackPanther from "../assets/img/heroes/blackPanther.png";
 import drStrange from "../assets/img/heroes/drStrange.png";
+import f4HQ from "../assets/img/hqs/f4HQ.png";
+import spiderManHQ from "../assets/img/hqs/spiderManHQ.png";
 
 import rating1 from "../assets/ratings/1.png";
 import rating2 from "../assets/ratings/2.png";
@@ -41,6 +43,8 @@ export const imagePaths = {
   silverSurfer,
   thorHQ,
   wolverineHQ,
+  spiderManHQ,
+  f4HQ,
 };
 export const ratingPaths = {
   rating1,

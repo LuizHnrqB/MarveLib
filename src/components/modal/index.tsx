@@ -2,17 +2,20 @@ import React, { useState } from "react";
 import * as styles from "./styles";
 import { imgs, ratingPaths } from "../../data/imagePaths";
 import closeIcon from "../../assets/img/closeIcon.png";
+import dPlus from "../../assets/img/d+.png";
+import amzn from "../../assets/img/amazon.png";
+import amrcn from "../../assets/img/americanas.png";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-interface ReactSlickModalProps {
+interface DetailsModalProps {
   isOpen: boolean;
   onClose: () => void;
   selectedItem: any;
   selectedIndex: number;
 }
-export const ReactSlickModal: React.FC<ReactSlickModalProps> = ({
+export const DetailsModal: React.FC<DetailsModalProps> = ({
   isOpen,
   onClose,
   selectedItem,
@@ -63,6 +66,24 @@ export const ReactSlickModal: React.FC<ReactSlickModalProps> = ({
               <styles.Avaliacao>Sinópse</styles.Avaliacao>
 
               <styles.MovieList>{selectedItem?.about}</styles.MovieList>
+              {selectedItem?.tipo === "2" ? (
+                <styles.AvaibleContainer>
+                  <styles.Avaible>Disponível para Streaming</styles.Avaible>
+                  <a href="https://disneyplus.com">
+                    <styles.AvaibleLinks src={dPlus}></styles.AvaibleLinks>
+                  </a>
+                </styles.AvaibleContainer>
+              ) : (
+                <styles.AvaibleContainer>
+                  <styles.Avaible>Disponível para Compra</styles.Avaible>
+                  <a href="https://www.amazon.com.br/">
+                    <styles.AvaibleLinks src={amzn}></styles.AvaibleLinks>
+                  </a>
+                  <a href="https://www.americanas.com.br/">
+                    <styles.AvaibleLinks src={amrcn}></styles.AvaibleLinks>
+                  </a>
+                </styles.AvaibleContainer>
+              )}
               <styles.Avaliacao>Crítica </styles.Avaliacao>
               <styles.Rating
                 src={
@@ -87,7 +108,7 @@ export const ReactSlickModal: React.FC<ReactSlickModalProps> = ({
         </styles.DetailImageContainer>
 
         <styles.CloseButton onClick={onClose}>
-          <styles.CloseIcon src={closeIcon} alt="Close" />
+          <styles.CloseIcon src={closeIcon} alt="fechar" />
         </styles.CloseButton>
       </styles.ModalContent>
     </styles.ModalWrapper>
