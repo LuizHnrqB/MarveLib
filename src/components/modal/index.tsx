@@ -19,13 +19,7 @@ export const DetailsModal: React.FC<DetailsModalProps> = ({
   isOpen,
   onClose,
   selectedItem,
-  selectedIndex,
 }) => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const handleAfterChange = (index: number) => {
-    setCurrentSlide(index);
-  };
   const imgIndex = imgs.findIndex((img) => img.includes(selectedItem?.foto));
   const ratingIndex = Object.keys(ratingPaths).findIndex((rating) =>
     rating.includes(selectedItem?.rating)
