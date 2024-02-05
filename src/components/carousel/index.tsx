@@ -19,17 +19,6 @@ export function ItemsCarousel({ data }: { data: any[] }) {
     setIsModalOpen(true);
   };
 
-  function SampleNextArrow(props: any) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, display: "block", color: "red", fontSize: "220px" }}
-        onClick={onClick}
-      ></div>
-    );
-  }
-
   const getBackgroundImage = (foto: string) => {
     const imgIndex = imgs.findIndex((img) => img.includes(foto));
     return imgIndex !== -1 ? imgs[imgIndex] : "";
@@ -41,8 +30,6 @@ export function ItemsCarousel({ data }: { data: any[] }) {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SampleNextArrow />,
     responsive: [
       {
         breakpoint: 1024,
